@@ -285,7 +285,7 @@ def problem3b(m, x):
            which is approximately 12.020144157845959.
      """
     # -------------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # DONE: 4. Implement and test this function.
     #          Tests have been written for you (above).
     ###########################################################################
     ###########################################################################
@@ -300,10 +300,10 @@ def problem3b(m, x):
             if is_prime(sum_of_digits(k)) == True:
                 count = count + 1
 
-    if count >= x:
-        return True
-    else:
+    if count < x:
         return False
+    else:
+        return True
 
 
 ###############################################################################
