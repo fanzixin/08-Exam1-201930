@@ -52,8 +52,8 @@ def test_factor_sum():
     print('Actual:  ', actual)
 
     # Test 2:
-    expected = 3
-    actual = factor_sum(11)
+    expected = 6
+    actual = factor_sum(5)
     print()
     print('Expected:', expected)
     print('Actual:  ', actual)
@@ -66,7 +66,7 @@ def test_factor_sum():
     print('Actual:  ', actual)
 
     # Test 4:
-    expected = 4
+    expected = 3
     actual = factor_sum(16)
     print()
     print('Expected:', expected)
